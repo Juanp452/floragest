@@ -1,0 +1,20 @@
+name: floragest
+description: Un proyecto de E-commerce de flores y plantas.
+
+# <<<<<<<< AÑADE ESTO EXACTAMENTE AQUÍ >>>>>>>>
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Esto le dice a Flutter que use Dart 3.x
+# <<<<<<<<<<<<<<< FIN DE AÑADIDO >>>>>>>>>>>>>
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # ASEGÚRATE DE QUE LAS DEPENDENCIAS DE FIREBASE ESTÉN AQUÍ:
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.2
+  cloud_firestore: ^4.13.5
+  http: ^1.5.0
+  cupertino_icons: ^1.0.8
+
+# El resto del archivo...
